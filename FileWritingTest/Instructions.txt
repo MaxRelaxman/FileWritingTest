@@ -1,0 +1,128 @@
+﻿
+Conversation opened. 1 read message.
+
+Skip to content
+Using Gmail with screen readers
+
+9 of 234
+Escher Coding Test
+Inbox
+
+Lauren Bell <Lauren.Bell@eschergroup.com>
+Attachments
+1:11 PM (6 hours ago)
+to me
+
+Hi Thomas!
+
+ 
+
+Thanks or chatting with Jared yesterday! I have attached the coding test to this email, and have included instructions from Jared below. Please let me know if there are any questions. If you could please return by 3pm on Friday the 9th, that would be great!
+
+ 
+
+“Hi Thomas!
+
+ 
+
+It was great talking with you and I am glad to see that you were interested in going further.  As mentioned we would like you to do a short coding test before your interview next week. 
+
+ 
+
+I have attached a file with the coding test instructions. This test should take 2-4 hours depending on how much you want to put into it.  As mentioned in the file we are looking to see:
+
+ 
+
+               •             Maintability
+
+                •             Reusability
+
+                •             Readability
+
+                •             Configurability
+
+                •             Testability
+
+                •             Performance
+
+                •             Versatility
+
+                •             Tests quality & coverage”
+
+ 
+
+Thanks!
+Lauren
+
+
+
+Lauren Bell, PHR
+
+ 
+
+HR Manager, Americas
+
+ 
+
+lauren.bell@eschergroup.com
+
+ 
+
+eschergroup.com
+
+ 
+
+BOSTON • DUBLIN • HELSINKI • KUALA LUMPUR • SINGAPORE
+
+ 
+
+      
+
+ 
+
+ 
+
+ 
+
+ 
+
+This message (including any attachments) is confidential. It may also contain privileged information protected by law from further disclosure. If you are not the intended recipient, disclosure, copying, use, or distribution of the information included in this e-mail and attachments is prohibited. If you have received this communication in error, please advise the sender immediately and permanently delete this message and attachments. Any views expressed in this message are those of the individual sender, except where the message states otherwise and the sender is authorised to make such a statement.
+2
+ Attachments
+  •  Scanned by Gmail
+What do you think?Here you go!Thanks!
+Create a C# console application that prompts some details from the user and save them to a file.
+Design your solution while keeping in mind that in the future we might need to switch from this platform to a web service architecture or support other platforms, sharing code between them.
+
+Details:
+	- Person Details
+		- FirstName
+		- Surname
+		- Date of birth
+		- Marital status
+	- If married, save husband / wife details (same as above) to a separate linked file (see sample below)
+
+Business Rules:
+	- If age less than 18 ask for parent's authorization(just a boolean indicating yes/no "My parents allow registration")
+		- If not authorized, deny registration
+	- If age less than 16 deny registration
+	- Save all records into a file called "People.txt"
+	- Spouse information can be saved wherever you want, but keep in mind that different people might have the same wife/husband names
+
+Your solution will be evaluated based on the follow parameters:
+	•	Maintability
+	•	Reusability
+	•	Readability
+	•	Configurability
+	•	Testability
+	•	Performance
+	•	Versatility
+	•	Tests quality & coverage
+
+===============================================
+
+Example People File at c:\people\mainfile.txt:
+John|Doe|01-12-1980|Single|null|c:\people\spouses\Anna.txt
+Paul|Murphy|01-12-2001|Single|yes|
+FileWritingTest.txt
+Displaying FileWritingTest.txt.
