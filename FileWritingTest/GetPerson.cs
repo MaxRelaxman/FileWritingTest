@@ -1,10 +1,4 @@
 ﻿using PersonLib.models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FileWritingTest
 {
@@ -85,7 +79,7 @@ namespace FileWritingTest
 
         private void GetFirstName(BasePerson newPerson)
         {
-            Console.Write("Enter Person's First Name: ");
+            Console.Write("\r\nEnter Person's First Name: ");
             newPerson.Firstname = Console.ReadLine() ?? string.Empty;
 
             PersonLib.validation_result validationResult = newPerson.ValidateFirstName();
